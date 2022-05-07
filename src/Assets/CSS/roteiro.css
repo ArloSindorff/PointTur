@@ -1,0 +1,181 @@
+.h1Roteiro{
+    font-size: 50px;
+    font-weight: 400px;
+}
+
+.pRoteiro{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.inputsRoteiro{
+    width: 1142px;
+    height: 67px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px;
+    font-size: 20px;
+}
+
+.textAreaRoteiro{
+    width: 1142px;
+    height: 188px;
+    border-radius: 10px;
+    padding: 10px 0px 0px 10px;
+    font-size: 20px;
+    resize: none;
+    border: none;
+}
+
+.cadastrarRoteiro{
+    width: 248px;
+    height: 45px;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: var(--cinza);
+    border-radius: 16px;
+    border: 2px solid var(--azul);
+}
+
+.divQuadrado{
+    width: 324px;
+    height: 326px;
+    background-color: var(--azulEscuro);
+    color: var(--branco);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.editar{
+    width: 157px;
+    height: 40px;
+    background-color: var(--cinza);
+    border-radius: 16px;
+    border: 2px solid var(--azul);
+    font-size: 24px;
+    background-color: var(--cinza);
+}
+
+.excluir{
+    width: 157px;
+    height: 40px;
+    background-color: var(--azul);
+    color: var(--branco);
+    border-radius: 16px;
+    font-size: 24px;
+    border: 0px solid var(--azul);
+}
+
+.saibaMais{
+    background-color: var(--cinza);
+    border-radius: 16px;
+    border: 2px solid var(--azul);
+    font-size: 24px;
+    width: 230px;
+    height: 40px;
+}
+
+.sectionPaiDeTodos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.sectionUmRoteiro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 103px;
+}
+
+.divH1{
+    margin-top: 75px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.divPaiInputs{
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divInputs{
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divTextArea{
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divMasterCadastrar{
+    display: flex;
+    flex-direction: column;
+}
+
+.divCadastrar{
+    height: 113px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sectionDoisRoteiro{
+    height: 723px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 107px;
+}
+
+.divBaseMaster{
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divCardRoteiro{
+    display: flex;
+    width: 1138px;
+    justify-content: space-between;
+}
+
+.maxP{
+    max-width: 710px;
+    margin-top: 18px;
+    margin-left: 26px;
+}
+
+.divBrancaCard{
+    width: 793px;
+    background-color: var(--branco);
+}
+
+.divEditarExcluir{
+    display: flex;
+    margin-left: 26px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.editar{
+    margin-right: 31px;
+}
+
+.divSaibaMais{
+    margin-left: 26px;
+    width: 710px;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,37 @@
+.Header{
+    background-color: var(--preto);
+    height: 132px;
+    display: flex;
+    justify-content: center;
+}
+
+.bDoHeader{
+    background-color: var(--preto);
+    color: var(--branco);
+    font-size: 24px;
+    font-weight: 400;
+    border: 0px solid var(--preto);
+}
+
+.bDoHeader:hover{
+    border-bottom: 1px solid var(--branco);
+}
+
+.alinhamentoHeader{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.espaçamentoPHeader{
+    width: 336px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Link{
+    background-color: var(--preto);
+    color: var(--branco);
+    text-decoration: none;
+}

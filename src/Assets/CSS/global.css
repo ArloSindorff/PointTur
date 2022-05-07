@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #0A0909;
+    --branco: #fff;
+    --brancoEscurecido: #FBFBFB;
+    --cinza: #F3F3F3;
+    --azul: #4776E6;
+    --azulEscuro: #4776E6;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: var(--cinza);
+    display: flex;
+    justify-content: center;
+}
+
+.alinhamentoMain{
+    width: 75%;
+}

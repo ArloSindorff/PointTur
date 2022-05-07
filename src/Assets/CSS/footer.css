@@ -1,0 +1,40 @@
+.footer{
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    height: 132px;
+}
+
+.pFooter{
+    color: var(--brancoEscurecido);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.footerAlinhamento{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgsFooter{
+    width: 377px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logosFooter{
+    width: 66px;
+    height: 66px;
+}
+
+.logosFaceFooter{
+   width: 89px;
+   height: 66px;
+}
+
+.logosInstaFooter{
+    width: 66px;
+    height: 66px;
+}

@@ -1,0 +1,39 @@
+.h1Home{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.imgHome{
+    width: 800px;
+    height: 430px;
+}
+
+.pHome{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.alinhamentoMainHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionUmHome{
+    height: 574px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 105px;
+}
+
+.sectionDoisHome{
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}

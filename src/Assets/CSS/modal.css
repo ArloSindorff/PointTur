@@ -1,0 +1,83 @@
+.modalCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 849px;
+    background-color: var(--branco);
+    position: fixed;
+    bottom: 10vh;
+    left: 25vw;
+    top: 5vh;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+
+.headerMini{
+    background-color: var(--azulEscuro);
+    width: 100%;
+    height: 73px;
+}
+
+.alinhamentoHeaderMini{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttunFechamento{
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--branco);
+    background-color: var(--azulEscuro);
+    border: none;
+}
+
+.nomeCard{
+    background-color: var(--azulEscuro);
+    width: 450px;
+    height: 64px;
+    border-radius: 10px;
+    color: var(--branco);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+}
+
+.pMaioresModal{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.horariosModal{
+    font-size: 25px;
+    font-weight: 400
+}
+
+.DivPModal{
+    max-width: 447px;
+    height: 501px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.fundoModal{
+    width: 100vw;
+    height: 100vh;
+    bottom: 0.01vh;
+    right: 0.01vh;
+    position: fixed;
+    background-color: var(--preto);
+    opacity: 0.65;
+}
