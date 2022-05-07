@@ -53,4 +53,4 @@ jobs:
           app-name: 'PointTureduSync'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_284D70867FAE4E0FA697CD0152CD2220 }}
-          package: .
+          package: 'build'
